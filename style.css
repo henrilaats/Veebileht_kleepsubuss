@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    height: 118px;
+    height: 100px;
     text-align: right;
 }
 
@@ -32,8 +32,8 @@ nav {
 nav a {
     text-decoration: none;
     font-size: 22px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 main {
@@ -49,9 +49,17 @@ footer {
     background-color: rgba(0, 0, 0, 0.527);
     text-align: center;
     color: white;
+    margin-top: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
     
+}
+footer a{    
+    text-decoration: none;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+
 }
 h1 {
     font-size: 84px;
@@ -69,6 +77,17 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 section {
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
     padding-bottom: 50px;
 }
+
+.video {
+    position: absolute;
+    left: 250px;
+    top: 700px;
+}
+
 
