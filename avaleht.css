@@ -1,23 +1,69 @@
 html {
     height: 100%;
 }
+
+body {
+    background-image: url(pildid/buss.jpg);
+    background-color: rgb(61, 55, 53);
+    background-size: cover;
+    background-position: center;
+}
+
+.kast {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+logo {
+    position: absolute
+}
+
+header {
+    height: 100px;
+    text-align: right;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 main {
+    background-color: rgba(0, 0, 0, 0.527);
     height: 400px;
     text-align: center;
     margin-top: 40px;
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
+    font-weight: bold;
 }
 
 h1 {
     font-size: 84px;
-    color: rgb(255, 232, 25);
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold
 }
 p {
     font-size: 18px;
-    color: rgb(251, 255, 37);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    font-size: 18px;
+    color: white;
     background-color: rgba(0, 0, 0, 0.52);
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,17 +76,24 @@ section {
 
 .video {
     position: absolute;
-    left: 250px;
+    left: 600px;
     top: 700px;
 }
+
 footer {
     background-color: rgba(0, 0, 0, 0.527);
     text-align: center;
     color: white;
+    margin-top: 400px;
     padding-top: 20px;
     padding-bottom: 20px;
-    
+    font-weight: bold;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+
 }
+
 footer a{    
     text-decoration: none;
     font-size: 16px;

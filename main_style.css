@@ -10,7 +10,7 @@ html {
 body {
     background-image: url(pildid/meist.jpg);
     background-color: rgb(61, 55, 53);
-    background-size: cover; 
+    background-size: cover;
     background-position: center;
 }
 header {
