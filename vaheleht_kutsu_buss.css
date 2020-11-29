@@ -16,18 +16,11 @@ body {
     width: 1024px;
 }
 
-logo {
-    position: absolute
-}
-
-header {
-    height: 100px;
-    text-align: right;
-}
 
 nav {
     background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
+    margin-top: 100px;
     padding-top: 14px;
     padding-bottom: 14px;
 
@@ -41,47 +34,40 @@ nav a {
 }
 
 main {
-    background-color: rgba(0, 0, 0, 0.527);
     height: 400px;
     text-align: center;
     margin-top: 40px;
     padding-top: 80px;
     padding-left: 240px;
     padding-right: 240px;
-    font-weight: bold;
 }
 
 footer {
     background-color: rgba(0, 0, 0, 0.527);
     text-align: center;
     color: white;
-    margin-top: 400px;
+    margin-top: 500px;
+    margin-bottom: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-weight: bold;
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
+
     
 }
-
-footer a{    
+footer a {
     text-decoration: none;
     font-size: 16px;
     padding-left: 15px;
     padding-right: 15px;
 
 }
-
 h1 {
     font-size: 84px;
-    color: rgb(300, 300, 300);
+    color: rgb(255, 232, 25);
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold
 }
 p {
     font-size: 18px;
-    color: rgb(300, 300, 300);
+    color: rgb(251, 255, 37);
     font-family: Arial, Helvetica, sans-serif;
 }
 a {
@@ -90,17 +76,5 @@ a {
     font-family: Arial, Helvetica, sans-serif;
 }
 section {
-
-    margin-left: auto;
-    margin-right: auto;
-    width: 1024px;
     padding-bottom: 50px;
 }
-
-.video {
-    position: absolute;
-    left: 250px;
-    top: 700px;
-}
-
-
