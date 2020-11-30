@@ -28,8 +28,8 @@ section {
 }
 
 .video {
-    position: absolute;
-    left: 600px;
+    text-align: center;
     top: 700px;
+    display: block;
 }
 
